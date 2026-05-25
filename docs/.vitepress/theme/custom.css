@@ -1,0 +1,23 @@
+/* 1. Target the native CSS layout variable VitePress uses under the hood */
+:root {
+    --vp-nav-logo-height: 45px;
+  }
+  
+  /* 2. Target the specific element with width balancing overrides */
+  .VPNavBarBrand img.logo {
+    height: 45px !important;
+    width: auto !important; /* Forces the SVG to calculate its wide horizontal ratio */
+    max-height: 45px !important;
+    display: block;
+  }
+  
+  /* 3. Handle mobile viewport container overrides as well */
+  .VPNavScreenAppearance .logo {
+    height: 45px !important;
+    width: auto !important;
+  }
+  
+  /* Optional hover scaling effect */
+  .VPNavBarBrand:hover img.logo {
+    transform: scale(1.02);
+  }

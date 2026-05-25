@@ -1,0 +1,9 @@
+install node
+# Initialize a standard node project
+npm init -y
+
+# Install VitePress as a development dependency
+npm install -D vitepress
+
+# Run the interactive VitePress installation wizard
+npx vitepress init
