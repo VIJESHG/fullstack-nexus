@@ -1,0 +1,4 @@
+# Global Owners
+# The '*' matches all files in the repo. @vijeshg will be automatically 
+# requested for review on all incoming Pull Requests.
+* @vijeshg
