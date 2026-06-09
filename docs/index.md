@@ -32,7 +32,7 @@ features:
   - icon: 🧠
     title: "Algorithmic Blueprints"
     details: "High-frequency interview patterns—sliding windows, two-pointers, graphs, backtracking, and dynamic programming implemented cleanly."
-    link: /competitive-coding/data-structures
+    link: /competitive-coding/problem-patterns
 
   - icon: 📐
     title: "System Design & Patterns"
